@@ -1,0 +1,4 @@
+(library
+ (name recursion)
+ (libraries utils lang solve generators sexplib)
+ (preprocess (pps ppx_sexp_conv ppx_let)))

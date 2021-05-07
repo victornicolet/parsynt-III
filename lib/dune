@@ -1,0 +1,4 @@
+(library
+ (name lib)
+ (libraries utils lang front solve generators recursion sexplib)
+ (preprocess (pps ppx_sexp_conv)))

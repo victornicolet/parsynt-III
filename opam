@@ -1,0 +1,36 @@
+opam-version: "2.0"
+name: "discuRe"
+version: "0.1"
+synopsis: "Discover recursion for parallelization"
+maintainer: "Victor Nicolet <victorn@cs.toronto.edu>"
+authors: "Victor Nicolet <victorn@cs.toronto.edu>"
+license: "MIT"
+homepage: "http://www.github.com/victornicolet/discuRe"
+bug-reports: "http://www.github.com/victornicolet/discuRe"
+dev-repo: "git+https://www.github.com/victornicolet/discuRe.git"
+
+build: ["dune" "build" "-p" name]
+
+depends: [
+  "ocaml"
+  "ocamlfind"
+  "dune"
+  "cppo"
+  "odoc"
+  "menhir"
+  "extlib"
+  "fmt"
+  "base"
+  "stdio"
+  "sedlex" {>= "1.99.4"}
+  ########################
+  "ocaml-compiler-libs"
+  "ppx_sexp_conv"
+  "ppx_deriving"
+  "ppx_enumerate"
+  "sexplib"
+  #########################
+  "z3"
+  "alt-ergo"
+  "aez"
+]

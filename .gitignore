@@ -1,0 +1,56 @@
+discure.out
+discure.ps
+\#*
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+*_soln.txt
+*.log
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+
+# Merlin configuring file for Vim and Emacs
+.merlin
+
+# Emacs temporary files
+*~
+.emacs.desktop*
+
+# VSCode files
+.vscode
+
+# Project specific temporary files
+tmp.smt2
+tmp_check.smt2
+logs/*
+all.sh
+# Esy files
+node_modules
+package-lock.json
+
+# Experimental data
+experiments/data/*.csv
+experiments/data/exp_pt_seq/*.csv
+experiments/data/exp_pt_seq/*.pdf
+experiments/P*
+tmp
+inputs/*/*.csv
+table7a.txt
+table1.txt
+figure4.pdf
+fig*.pdf
+
